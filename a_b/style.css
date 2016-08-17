@@ -186,48 +186,18 @@ nav a:hover {
 
 /*POP UP*/
 
-
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(63, 63, 63, 0.9);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-	z-index: 8;
-}
-
-.popup {
-	display: flex;
-	flex-direction: column;
-  margin: 20px auto;
-  background: rgba(216, 216, 216, 0.8);
+.modal-lg {
   width: 95%;
 	height: 92%;
   position: relative;
   transition: all 5s ease-in-out;
 }
 
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
+.close {
+
 }
-.popup .close:hover {
-  color: white;
+.close:hover {
+  color: black;
 }
 
 
@@ -250,13 +220,6 @@ nav a:hover {
 
 /*PROJECT INFOS*/
 
-.projectinfos {
-	display: flex;
-	flex-direction: row;
-	bottom: 0;
-	max-height: 400px;
-	}
-
 	.img-infos {
 	width: 20%;
 	margin-right: 20px;
@@ -272,9 +235,9 @@ nav a:hover {
 
 /*DESCRIÇÃO*/
 
-.descricao {
-	margin-top: 40px;
-	margin-right: 40px;
+.modal-body {
+	margin: 30px;
+
 }
 
 h1 {
