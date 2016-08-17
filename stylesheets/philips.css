@@ -1,0 +1,18 @@
+.philips-sprite {
+    background-image: url(../img/projetos/philips/philips-spritesheet.png) ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+}
+
+.philips-sprite-0 {
+    width: 1024px;
+    height: 719px;
+    background-position: 0 0;
+}
+
+.philips-sprite-1 {
+    width: 1024px;
+    height: 719px;
+    background-position: -1024px 0;
+}
