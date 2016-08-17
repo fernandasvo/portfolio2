@@ -1,10 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/philips.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="../img/iconefundoclaro.png" >
+    <title> Fernada Vaz </title>
 </head>
+
 <body>
+
+<!--SEÇÕES-->
+<section class="container-fluid">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <header class="header">
+                <nav id="menuprincipal">
+                    <a class="hover" href="#portfolio"> PORTFOLIO </a>
+                    <a class="hover" href="#contato"> CONTATO </a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <!--INICIO-->
+
+    <div class="row">
+        <section id="inicio">
+            <img class="imagem" src="../img/marca.png">
+        </section>
+    </div>
+
+    <!--PORTFOLIO-->
+
+    <section id="portfolio">
+        <!--Linha1-->
+        <div class="row">
+            <div class="col-sm-3">
+                <a data-toggle="modal" data-target="#modal1" href="#">
+                    <img src="../img/projetos/superficie/0.png" class="img-responsive"></a>
+                <div class="container">
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="../img/projetos/superficie/b.png" class="img-responsive">
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="../img/projetos/superficie/a.jpg" class="img-responsive">
+                                        </div>
+                                        <div class="col-md-4 ">
+                                            <img src="../img/projetos/superficie/6.png" class="img-responsive">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="col-sm-4">
+                                        <img src="../img/projetos/superficie/0.png" class="img-responsive">
+                                    </div>
+                                    <h1> SUPERFÍCIE PARAMÉTRICA </h1>
+                                    <h2> Superfície materializada a partir da frequência dos batimentos cardíacos do indivíduo ao ouvir uma determinada música.  </h2>
+                                    <h3> Softwares utilizados:</h3>
+                                    <h4> Rhino3D, Grasshopper e Keyshot. </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-3 ">
+                <img src="../img/projetos/transbrasil/0.png" class="img-responsive">
+            </div>
+            <div class="col-sm-3 ">
+                <img src="../img/projetos/philips/0.png" class="img-responsive">
+            </div>
+            <div class="col-sm-3">
+                <img src="../img/projetos/electrolux/0.png" class="img-responsive">
+            </div>
+        </div>
+
+        <!--Linha2-->
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="../img/projetos/arenabb/0.png" class="img-responsive">
+            </div>
+            <div class="col-sm-3 ">
+                <img src="../img/projetos/serralheria/0.png" class="img-responsive">
+            </div>
+            <div class="col-sm-3 ">
+                <img src="../img/projetos/vsc/0.png" class="img-responsive">
+            </div>
+            <div class="col-sm-3">
+                <img src="../img/projetos/caixa/0.png" class="img-responsive">
+            </div>
+        </div>
+
+        <!--Linha3-->
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="../img/projetos/pa/0.png" class="img-responsive">
+            </div>
+            <div class="col-sm-3 ">
+                <img src="../img/projetos/tam/01.png" class="img-responsive">
+            </div>
+        </div>
+    </section>
+
+
+    <div id="contato" class="row">
+        <form id="form" class="topBefore" action="https://formspree.io/fernandasvo@hotmail.com" method="post">
+            <div class="form-group">
+                <input id="name" type="text" placeholder="NOME" name="fullname" >
+            </div>
+            <div class="form-group">
+                <input id="email" type="text" placeholder="E-MAIL" name="email">
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="MENSAGEM"></textarea>
+            </div>
+            <input id="submit" type="submit" value="ENVIAR!">
+        </form>
+    </div>
+
+    <div class="row">
+        <footer>
+            <section class=direitos> FERNANDAVAZ 2016 / Todos os direitos reservados. </section>
+        </footer>
+    </div>
+    <!--Fim  de GRID DE PROJETOS-->
+    <!--Fim  de PORTFOLIO-->
+</section>
 
 </body>
 </html>
