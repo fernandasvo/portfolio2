@@ -329,7 +329,7 @@ h4 {
 /*CONTATO*/
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #aca49c;
+  color: #a09a97;
   font-size: 0.875em;
 }
 
@@ -338,7 +338,7 @@ input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholde
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #aca49c;
+  color: #a09a97;
   font-size: 0.875em;
 }
 
@@ -347,7 +347,7 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
 }
 
 input::placeholder, textarea::placeholder {
-  color: #aca49c;
+  color: #a09a97;
   font-size: 0.875em;
 }
 
@@ -356,7 +356,7 @@ input:focus::placeholder, textarea::focus:placeholder {
 }
 
 input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #aca49c;
+  color: #a09a97;
   font-size: 0.875em;
 }
 
@@ -417,9 +417,9 @@ input {
 
   background: transparent;
   outline: none;
-  color: #726659;
+  color: #88827f;
 
-  border: solid 1px #b3aca7;
+  border: solid 1px #88827f;
   border-bottom: none;
 
   transition: all 0.3s ease-in-out;
@@ -429,7 +429,7 @@ input {
 }
 
 input:hover {
-  background: #b3aca7;
+  background: #88827f;
   color: #e2dedb;
 }
 
@@ -442,11 +442,11 @@ textarea {
   background: transparent;
   outline: none;
 
-  color: #726659;
+  color: #88827f;
   font-family: 'Titillium Web', sans-serif;
   font-size: 0.875em;
 
-  border: solid 1px #b3aca7;
+  border: solid 1px #88827f;
 
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -455,7 +455,7 @@ textarea {
 }
 
 textarea:hover {
-  background: #b3aca7;
+  background: #88827f;
   color: #e2dedb;
 }
 
@@ -467,12 +467,12 @@ textarea:hover {
 
   font-family: 'Titillium Web', sans-serif;
   font-size: 0.875em;
-  color: #b3aca7;
+  color: #88827f;
 
   outline:none;
   cursor: pointer;
 
-  border: solid 1px #b3aca7;
+  border: solid 1px #88827f;
   border-top: none;
 }
 
