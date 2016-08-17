@@ -62,7 +62,7 @@ body {
 /*NAVBAR*/
 
 .header {
-
+    position: fixed;
   justify-content: space-between;
 	z-index: 3;
   height: 60px;
@@ -125,15 +125,6 @@ body {
 
 
 /*PORTFOLIO*/
-
-#portfolio {
-
-	padding-bottom: 100px;
-	display: flex;
-	justify-content: center;
-
-
-}
 
 #menuportfolio {
 	display: flex;
