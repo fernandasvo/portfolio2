@@ -195,7 +195,7 @@ nav a:hover {
 }
 
 .close {
-	z-index: 3;
+
 }
 .close:hover {
     color: black;
@@ -221,19 +221,6 @@ nav a:hover {
 
 /*PROJECT INFOS*/
 
-<<<<<<< HEAD
-.modal-header {
-	padding: 0;
-	margin: 0;
-	border: 0;
-	overflow: auto;
-}
-
-.col-md-4{
-	padding: 0;
-}
-/*DESCRIÇÃO*/
-=======
 .img-infos {
     width: 20%;
     margin-right: 20px;
@@ -245,24 +232,13 @@ nav a:hover {
     width: 100%;
 
 }
->>>>>>> c9a42290acd2006e1b56ecf91d05b15ef15870af
 
-.col-sm-3 {
-	padding: 0;
-}
 
+/*DESCRIÇÃO*/
 
 .modal-body {
-<<<<<<< HEAD
- margin: 0;
- padding: 0;
-}
-=======
     margin: 30px;
->>>>>>> c9a42290acd2006e1b56ecf91d05b15ef15870af
 
-.descricao {
-	margin: 30px;
 }
 
 h1 {
@@ -482,4 +458,9 @@ footer {
 
 .form-group{
     margin-bottom: 0px;
+}
+
+
+.arena:hover{
+    content:url(../img/projetos/arenabb/1.png);
 }
