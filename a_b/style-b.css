@@ -41,7 +41,6 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
     content: none;
 }
 table {
@@ -57,7 +56,6 @@ body {
     font-family: 'Titillium Web', 'Century Gothic', sans-serif;
     margin: 0;
     background: url(../img/portfolio.jpg) repeat;
-    position: absolute;
 }
 
 /*NAVBAR*/
@@ -301,23 +299,6 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
     color: #bbb5af;
 }
 
-input::placeholder, textarea::placeholder {
-    color: #a09a97;
-    font-size: 0.875em;
-}
-
-input:focus::placeholder, textarea::focus:placeholder {
-    color: #bbb5af;
-}
-
-input::-ms-placeholder, textarea::-ms-placeholder {
-    color: #a09a97;
-    font-size: 0.875em;
-}
-
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-    color: #bbb5af;
-}
 
 /* on hover placeholder */
 
@@ -339,23 +320,6 @@ input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
     color: #cbc6c1;
 }
 
-input:hover::placeholder, textarea:hover::placeholder {
-    color: #e2dedb;
-    font-size: 0.875em;
-}
-
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-    color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-    color: #e2dedb;
-    font-size: 0.875em;
-}
-
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-    color: #cbc6c1;
-}
 
 #form {
     position: relative;
@@ -455,12 +419,40 @@ footer {
 
 }
 
-
 .form-group{
     margin-bottom: 0px;
 }
 
-
+.superficie:hover{
+    content:url(../img/projetos/superficie/1.png);
+}
+.transbrasil:hover{
+    content:url(../img/projetos/transbrasil/1.png);
+}
+.philips:hover{
+    content:url(../img/projetos/philips/1.png);
+}
 .arena:hover{
     content:url(../img/projetos/arenabb/1.png);
+}
+
+.electrolux:hover{
+    content:url(../img/projetos/electrolux/1.png);
+}
+
+.serralheria:hover{
+    content:url(../img/projetos/serralheria/1.png);
+}
+
+.vsc:hover{
+    content:url(../img/projetos/vsc/1.png);
+}
+.caixa:hover{
+    content:url(../img/projetos/caixa/1.png);
+}
+.pa:hover{
+    content:url(../img/projetos/pa/1.png);
+}
+.tam:hover{
+    content:url(../img/projetos/tam/1.png);
 }
