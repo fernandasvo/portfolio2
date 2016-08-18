@@ -194,7 +194,7 @@ nav a:hover {
 }
 
 .close {
-
+	z-index: 3;
 }
 .close:hover {
   color: black;
@@ -220,24 +220,30 @@ nav a:hover {
 
 /*PROJECT INFOS*/
 
-	.img-infos {
-	width: 20%;
-	margin-right: 20px;
-	margin-left: 10px;
+.modal-header {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+}
 
-	}
-
-	.img-infos img {
-		width: 100%;
-
-	}
-
-
+.col-md-4{
+	padding: 0;
+}
 /*DESCRIÇÃO*/
 
-.modal-body {
-	margin: 30px;
+.col-sm-3 {
+	padding: 0;
+}
 
+
+.modal-body {
+ margin: 0;
+ padding: 0;
+}
+
+.descricao {
+	margin: 30px;
 }
 
 h1 {
